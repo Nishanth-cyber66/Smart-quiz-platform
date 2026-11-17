@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1794914522060,
+    "studentName": "nishanth",
+    "subject": "Java",
+    "score": 5,
+    "total": 5,
+    "percentage": 100,
+    "timeTaken": 63,
+    "date": "2026-11-17T11:22:02.060Z"
+  },
+  {
+    "id": 1794914595329,
+    "studentName": "nishanth",
+    "subject": "Java",
+    "score": 1,
+    "total": 5,
+    "percentage": 20,
+    "timeTaken": 19,
+    "date": "2026-11-17T11:23:15.329Z"
+  }
+]

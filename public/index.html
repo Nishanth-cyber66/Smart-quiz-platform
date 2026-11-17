@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizSpark | Smart Quiz & Exam Preparation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="QuizSpark home"><span class="brand-icon">Q</span> QuizSpark</a>
+    <nav><a href="#home">Home</a><a href="#leaderboard">Leaderboard</a></nav>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">SMART QUIZ & EXAM PREPARATION</span>
+        <h1>Prepare smarter.<br><span>Perform better.</span></h1>
+        <p>Practice subject-wise questions, challenge yourself with timed tests and learn from every answer.</p>
+        <div class="hero-points"><span>✓ Instant results</span><span>✓ Clear explanations</span><span>✓ Track your score</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-card"><div class="art-top"><span>YOUR PROGRESS</span><span class="live-dot">● LIVE</span></div>
+          <div class="art-score">85<small>%</small></div><div class="progress"><i></i></div>
+          <div class="art-bottom"><span>Keep learning</span><span>✦ ✦ ✦</span></div>
+          <div class="art-bubble">🎯</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-heading">
+      <div><span class="eyebrow">GET STARTED</span><h2>Choose your practice test</h2></div>
+      <p>Pick a subject and start learning</p>
+    </section>
+
+    <section class="setup-card">
+      <div class="field">
+        <label for="studentName">Student name</label>
+        <input id="studentName" type="text" maxlength="40" placeholder="Enter your name">
+      </div>
+      <div class="field">
+        <label for="subject">Select subject</label>
+        <select id="subject"><option value="">Loading subjects...</option></select>
+      </div>
+      <div class="field">
+        <label for="questionCount">Number of questions</label>
+        <select id="questionCount">
+          <option value="5">5 Questions</option>
+          <option value="10">10 Questions</option>
+          
+        </select>
+      </div>
+      <button id="startBtn" class="primary-btn">Start quiz <span>→</span></button>
+      <p id="setupMessage" class="message" role="status"></p>
+    </section>
+
+    <section id="quizSection" class="quiz-section hidden">
+      <div class="quiz-head">
+        <div><span class="eyebrow">YOUR TEST</span><h2 id="quizTitle">C Programming Quiz</h2></div>
+        <div class="timer"><span>TIME LEFT</span><strong id="timer">05:00</strong></div>
+      </div>
+      <div class="quiz-progress"><div><span id="progressText">Question 1 of 5</span><span id="answeredText">0 answered</span></div><div class="progress-track"><i id="quizProgress"></i></div></div>
+      <div class="question-card">
+        <div class="question-meta"><span id="questionNumber">QUESTION 01</span><span class="tag">MCQ</span></div>
+        <h3 id="questionText">Question appears here</h3>
+        <div id="options" class="options"></div>
+        <div class="quiz-actions">
+          <button id="prevBtn" class="secondary-btn">← Previous</button>
+          <button id="nextBtn" class="primary-btn">Next question →</button>
+          <button id="submitBtn" class="submit-btn">Submit test</button>
+        </div>
+      </div>
+      <div id="questionDots" class="question-dots"></div>
+    </section>
+
+    <section id="resultSection" class="result-section hidden">
+      <div class="result-banner">
+        <div class="result-icon">🏆</div>
+        <span class="eyebrow">TEST COMPLETED</span>
+        <h2 id="resultHeading">Great work!</h2>
+        <p id="resultMessage">Here is how you performed.</p>
+        <div class="score-number"><strong id="scoreValue">0/5</strong><span id="percentageValue">0%</span></div>
+        <div class="result-stats"><div><strong id="correctValue">0</strong><span>Correct</span></div><div><strong id="wrongValue">0</strong><span>Incorrect</span></div><div><strong id="timeValue">0:00</strong><span>Time taken</span></div></div>
+        <button id="tryAgainBtn" class="primary-btn">Try another quiz ↗</button>
+      </div>
+      <div class="review-wrap"><div class="section-heading"><div><span class="eyebrow">LEARN FROM IT</span><h2>Answer review</h2></div></div><div id="reviewList"></div></div>
+    </section>
+
+    <section id="leaderboard" class="leaderboard-section">
+      <div class="section-heading"><div><span class="eyebrow">TOP PERFORMERS</span><h2>Leaderboard</h2></div><span class="leader-icon">🏅</span></div>
+      <div class="leader-card">
+        <div class="leader-head"><span>STUDENT</span><span>SUBJECT</span><span>SCORE</span></div>
+        <div id="leaderRows"><p class="empty-state">No attempts yet. Be the first to take a quiz!</p></div>
+      </div>
+    </section>
+  </main>
+  <footer><strong>QuizSpark</strong> · Learn, practice and improve. <span>Smart Quiz & Exam Preparation Platform</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>

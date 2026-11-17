@@ -1,0 +1,522 @@
+[
+  {
+    "id": "c1",
+    "subject": "C Programming",
+    "question": "Which symbol is used to end a statement in C?",
+    "options": [
+      ".",
+      "; ",
+      ":",
+      ","
+    ],
+    "answerIndex": 1,
+    "explanation": "In C, a semicolon (;) marks the end of most statements."
+  },
+  {
+    "id": "c2",
+    "subject": "C Programming",
+    "question": "Which function is the starting point of a C program?",
+    "options": [
+      "start()",
+      "main()",
+      "printf()",
+      "run()"
+    ],
+    "answerIndex": 1,
+    "explanation": "Execution of a standard C program begins in the main() function."
+  },
+  {
+    "id": "c3",
+    "subject": "C Programming",
+    "question": "Which data type is commonly used to store a whole number?",
+    "options": [
+      "int",
+      "float",
+      "char",
+      "double"
+    ],
+    "answerIndex": 0,
+    "explanation": "The int data type stores integer values such as 10 or -4."
+  },
+  {
+    "id": "c4",
+    "subject": "C Programming",
+    "question": "Which operator is used to get the remainder?",
+    "options": [
+      "/",
+      "%",
+      "*",
+      "//"
+    ],
+    "answerIndex": 1,
+    "explanation": "The modulus operator (%) returns the remainder after division."
+  },
+  {
+    "id": "c5",
+    "subject": "C Programming",
+    "question": "Which header file is needed for printf()?",
+    "options": [
+      "<math.h>",
+      "<string.h>",
+      "<stdio.h>",
+      "<stdlib.h>"
+    ],
+    "answerIndex": 2,
+    "explanation": "printf() is declared in the standard input/output header stdio.h."
+  },
+  {
+    "id": "j1",
+    "subject": "Java",
+    "question": "Which keyword is used to create a class in Java?",
+    "options": [
+      "function",
+      "class",
+      "define",
+      "struct"
+    ],
+    "answerIndex": 1,
+    "explanation": "The class keyword declares a class in Java."
+  },
+  {
+    "id": "j2",
+    "subject": "Java",
+    "question": "Which method is the usual entry point of a Java application?",
+    "options": [
+      "start()",
+      "run()",
+      "main()",
+      "init()"
+    ],
+    "answerIndex": 2,
+    "explanation": "Java applications commonly begin execution from public static void main(String[] args)."
+  },
+  {
+    "id": "j3",
+    "subject": "Java",
+    "question": "Which of these is not a primitive Java type?",
+    "options": [
+      "int",
+      "boolean",
+      "String",
+      "char"
+    ],
+    "answerIndex": 2,
+    "explanation": "String is a class in Java, not a primitive data type."
+  },
+  {
+    "id": "j4",
+    "subject": "Java",
+    "question": "Which keyword creates an object in Java?",
+    "options": [
+      "new",
+      "this",
+      "void",
+      "static"
+    ],
+    "answerIndex": 0,
+    "explanation": "The new keyword allocates an object and calls its constructor."
+  },
+  {
+    "id": "j5",
+    "subject": "Java",
+    "question": "Java source code is compiled into which form?",
+    "options": [
+      "Machine code directly",
+      "Bytecode",
+      "HTML",
+      "SQL"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Java compiler produces bytecode, which runs on the Java Virtual Machine."
+  },
+  {
+    "id": "p1",
+    "subject": "Python",
+    "question": "Which symbol is used for comments on a single line in Python?",
+    "options": [
+      "//",
+      "#",
+      "<!--",
+      "**"
+    ],
+    "answerIndex": 1,
+    "explanation": "A hash symbol (#) begins a single-line comment in Python."
+  },
+  {
+    "id": "p2",
+    "subject": "Python",
+    "question": "Which function displays output in Python?",
+    "options": [
+      "echo()",
+      "write()",
+      "print()",
+      "show()"
+    ],
+    "answerIndex": 2,
+    "explanation": "The print() function displays text and values in Python."
+  },
+  {
+    "id": "p3",
+    "subject": "Python",
+    "question": "Which data type stores True or False?",
+    "options": [
+      "int",
+      "str",
+      "bool",
+      "list"
+    ],
+    "answerIndex": 2,
+    "explanation": "The bool type represents the Boolean values True and False."
+  },
+  {
+    "id": "p4",
+    "subject": "Python",
+    "question": "What is the result of 3 ** 2 in Python?",
+    "options": [
+      "6",
+      "9",
+      "8",
+      "5"
+    ],
+    "answerIndex": 1,
+    "explanation": "The ** operator performs exponentiation, so 3 ** 2 equals 9."
+  },
+  {
+    "id": "p5",
+    "subject": "Python",
+    "question": "Which brackets are used to create a list?",
+    "options": [
+      "()",
+      "{}",
+      "[]",
+      "<>"
+    ],
+    "answerIndex": 2,
+    "explanation": "Square brackets [] are used to create a Python list."
+  },
+  {
+    "id": "d1",
+    "subject": "DBMS",
+    "question": "What does DBMS stand for?",
+    "options": [
+      "Data Backup Management System",
+      "Database Management System",
+      "Digital Base Management Service",
+      "Database Machine System"
+    ],
+    "answerIndex": 1,
+    "explanation": "DBMS stands for Database Management System."
+  },
+  {
+    "id": "d2",
+    "subject": "DBMS",
+    "question": "Which SQL command is used to retrieve data?",
+    "options": [
+      "GET",
+      "OPEN",
+      "SELECT",
+      "FETCH ALL"
+    ],
+    "answerIndex": 2,
+    "explanation": "SELECT retrieves rows or columns from one or more database tables."
+  },
+  {
+    "id": "d3",
+    "subject": "DBMS",
+    "question": "Which key uniquely identifies each row in a table?",
+    "options": [
+      "Foreign key",
+      "Primary key",
+      "Candidate value",
+      "Duplicate key"
+    ],
+    "answerIndex": 1,
+    "explanation": "A primary key uniquely identifies every record in a table."
+  },
+  {
+    "id": "d4",
+    "subject": "DBMS",
+    "question": "What is the full form of SQL?",
+    "options": [
+      "Structured Query Language",
+      "Simple Question Language",
+      "System Query Link",
+      "Sequential Query Logic"
+    ],
+    "answerIndex": 0,
+    "explanation": "SQL means Structured Query Language."
+  },
+  {
+    "id": "d5",
+    "subject": "DBMS",
+    "question": "A foreign key is mainly used to do what?",
+    "options": [
+      "Format a table",
+      "Connect related tables",
+      "Delete a database",
+      "Sort every column"
+    ],
+    "answerIndex": 1,
+    "explanation": "A foreign key creates a relationship by referring to a key in another table."
+  },
+  {
+    "id": "c6",
+    "subject": "C Programming",
+    "question": "Which loop executes its body at least once?",
+    "options": [
+      "for",
+      "while",
+      "do-while",
+      "nested for"
+    ],
+    "answerIndex": 2,
+    "explanation": "A do-while loop checks its condition after executing the body."
+  },
+  {
+    "id": "c7",
+    "subject": "C Programming",
+    "question": "Which format specifier is used for an integer in printf?",
+    "options": [
+      "%c",
+      "%d",
+      "%f",
+      "%s"
+    ],
+    "answerIndex": 1,
+    "explanation": "%d is commonly used to print an int value."
+  },
+  {
+    "id": "c8",
+    "subject": "C Programming",
+    "question": "Which operator checks equality in C?",
+    "options": [
+      "=",
+      "==",
+      "!=",
+      "<="
+    ],
+    "answerIndex": 1,
+    "explanation": "The == operator compares two values for equality."
+  },
+  {
+    "id": "c9",
+    "subject": "C Programming",
+    "question": "What is the index of the first element in a C array?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "Depends on compiler"
+    ],
+    "answerIndex": 0,
+    "explanation": "C arrays use zero-based indexing."
+  },
+  {
+    "id": "c10",
+    "subject": "C Programming",
+    "question": "Which keyword returns a value from a function?",
+    "options": [
+      "break",
+      "continue",
+      "return",
+      "exit"
+    ],
+    "answerIndex": 2,
+    "explanation": "The return statement sends a value back to the caller."
+  },
+  {
+    "id": "j6",
+    "subject": "Java",
+    "question": "Which concept allows a class to inherit another class?",
+    "options": [
+      "Encapsulation",
+      "Inheritance",
+      "Polymorphism",
+      "Abstraction"
+    ],
+    "answerIndex": 1,
+    "explanation": "Inheritance lets a class acquire members from another class."
+  },
+  {
+    "id": "j7",
+    "subject": "Java",
+    "question": "Which collection stores unique elements?",
+    "options": [
+      "ArrayList",
+      "HashSet",
+      "LinkedList",
+      "Vector"
+    ],
+    "answerIndex": 1,
+    "explanation": "A HashSet stores unique elements and does not allow duplicates."
+  },
+  {
+    "id": "j8",
+    "subject": "Java",
+    "question": "Which keyword prevents a class from being inherited?",
+    "options": [
+      "static",
+      "private",
+      "final",
+      "const"
+    ],
+    "answerIndex": 2,
+    "explanation": "A final class cannot be extended by another class."
+  },
+  {
+    "id": "j9",
+    "subject": "Java",
+    "question": "Which block is used to handle exceptions?",
+    "options": [
+      "try-catch",
+      "if-else",
+      "for-loop",
+      "switch"
+    ],
+    "answerIndex": 0,
+    "explanation": "Java uses try and catch blocks to handle exceptions."
+  },
+  {
+    "id": "j10",
+    "subject": "Java",
+    "question": "Which operator compares primitive values for equality?",
+    "options": [
+      "=",
+      "==",
+      "equals=",
+      "==="
+    ],
+    "answerIndex": 1,
+    "explanation": "For primitive values, == compares their values."
+  },
+  {
+    "id": "p6",
+    "subject": "Python",
+    "question": "Which keyword defines a function in Python?",
+    "options": [
+      "func",
+      "function",
+      "def",
+      "lambda"
+    ],
+    "answerIndex": 2,
+    "explanation": "The def keyword is used to define a function."
+  },
+  {
+    "id": "p7",
+    "subject": "Python",
+    "question": "Which method adds an item to the end of a list?",
+    "options": [
+      "push()",
+      "append()",
+      "addLast()",
+      "insertEnd()"
+    ],
+    "answerIndex": 1,
+    "explanation": "append() adds one item to the end of a list."
+  },
+  {
+    "id": "p8",
+    "subject": "Python",
+    "question": "What is the output of len('quiz')?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "Error"
+    ],
+    "answerIndex": 1,
+    "explanation": "The string 'quiz' contains four characters."
+  },
+  {
+    "id": "p9",
+    "subject": "Python",
+    "question": "Which statement is used for decision making?",
+    "options": [
+      "if",
+      "repeat",
+      "select",
+      "define"
+    ],
+    "answerIndex": 0,
+    "explanation": "The if statement runs a block when its condition is true."
+  },
+  {
+    "id": "p10",
+    "subject": "Python",
+    "question": "Which data structure stores key-value pairs?",
+    "options": [
+      "Tuple",
+      "Set",
+      "Dictionary",
+      "String"
+    ],
+    "answerIndex": 2,
+    "explanation": "A dictionary stores data as key-value pairs."
+  },
+  {
+    "id": "d6",
+    "subject": "DBMS",
+    "question": "What does a DBMS help users do?",
+    "options": [
+      "Manage databases",
+      "Design keyboards",
+      "Edit videos",
+      "Browse websites"
+    ],
+    "answerIndex": 0,
+    "explanation": "A DBMS helps create, store, retrieve and manage data."
+  },
+  {
+    "id": "d7",
+    "subject": "DBMS",
+    "question": "Which SQL command adds a new row?",
+    "options": [
+      "UPDATE",
+      "INSERT",
+      "ALTER",
+      "DROP"
+    ],
+    "answerIndex": 1,
+    "explanation": "INSERT is used to add new records to a table."
+  },
+  {
+    "id": "d8",
+    "subject": "DBMS",
+    "question": "Which normal form removes partial dependency?",
+    "options": [
+      "1NF",
+      "2NF",
+      "3NF",
+      "BCNF only"
+    ],
+    "answerIndex": 1,
+    "explanation": "Second Normal Form (2NF) removes partial dependency on a candidate key."
+  },
+  {
+    "id": "d9",
+    "subject": "DBMS",
+    "question": "Which SQL command changes existing records?",
+    "options": [
+      "CHANGE",
+      "MODIFY",
+      "UPDATE",
+      "REPLACE TABLE"
+    ],
+    "answerIndex": 2,
+    "explanation": "UPDATE modifies existing rows in a table."
+  },
+  {
+    "id": "d10",
+    "subject": "DBMS",
+    "question": "What is a tuple in a relational database?",
+    "options": [
+      "A column",
+      "A row",
+      "A database",
+      "A key"
+    ],
+    "answerIndex": 1,
+    "explanation": "A tuple represents a row or record in a relational table."
+  }
+]
