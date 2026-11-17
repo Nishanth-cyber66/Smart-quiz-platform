@@ -106,6 +106,6 @@ app.get("/api/leaderboard", (req, res) => {
   res.json(results.slice(0, 10));
 });
 
-app.listen(PORT, "0.0.0.0" () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`Smart Quiz Platform is running at http://localhost:${PORT}`);
 });
